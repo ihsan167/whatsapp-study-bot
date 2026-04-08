@@ -1,0 +1,20 @@
+{
+  "name": "whatsapp-study-bot",
+  "version": "1.0.0",
+  "description": "WhatsApp study group reminder and check-in bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "groq-sdk": "^1.1.2",
+    "node-cron": "^3.0.3",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.26.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
